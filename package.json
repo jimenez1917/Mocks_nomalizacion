@@ -1,0 +1,23 @@
+{
+  "name": "mocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2",
+    "faker": "^5.5.3",
+    "knex": "^1.0.4",
+    "node-fetch": "^3.2.0",
+    "normalizr": "^3.6.2",
+    "socket.io": "^4.4.1",
+    "sqlite3": "^5.0.2"
+  }
+}
